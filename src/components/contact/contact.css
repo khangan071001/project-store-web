@@ -1,0 +1,12 @@
+.home {
+    padding: 75px;
+}
+
+.lead {
+    font-size: 35px;
+    line-height: 30px;
+}
+.contact-link{
+    margin: 0 10px;
+    text-decoration: none;
+}

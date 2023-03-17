@@ -1,0 +1,13 @@
+.payment-button{
+    margin: 50px 0 !important;
+    border: 1px solid rgb(132, 132, 132) !important;
+}
+.payment-button:hover{
+    background-color: rgb(196, 196, 196) !important;
+}
+.badge{
+    color: black !important;
+}
+.btn-back-products:hover{
+    background-color: antiquewhite !important;
+}

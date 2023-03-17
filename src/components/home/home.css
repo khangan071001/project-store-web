@@ -1,0 +1,46 @@
+.hero h5,
+p {
+  color: black;
+}
+.hero{
+    position: relative;
+}
+.card-title-h5 {
+  font-size: 80px;
+}
+.cart-fix {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    z-index: 99;
+    outline: none;
+}
+.img-cart-button-add{
+    width: 60px;
+    border-radius: 20px;
+}
+
+/* .cart-products-soluonhg{
+  position: relative;
+}
+.cart-products-soluonhg-small{
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+} */
+
+.mySlides{
+  display: none;
+}

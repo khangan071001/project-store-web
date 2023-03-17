@@ -1,0 +1,44 @@
+.navbar-nav a {
+  font-size: 18px;
+}
+.navbar {
+  background: rgb(193, 193, 193);
+  background: radial-gradient(
+    circle,
+    rgba(193, 193, 193, 1) 41%,
+    rgba(255, 243, 243, 1) 100%
+  );
+}
+.navbar-logo-img:hover{
+  transform: scale(1.5);
+  transition: all ease-in-out 0.5s;
+}
+.navbar-icon-cart{
+  position: relative;
+}
+.navbar-icon-cart i{
+  font-size: 25px;
+}
+.small-so-cart{
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.navbar-icon-cart i:hover{
+  color: rgb(167, 167, 167);
+}
+.btn-register{
+  padding-right: 0 !important;
+}
+.btn-login{
+  padding-left: 0 !important;
+  border-left: 1px solid black !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  padding-left: 5px !important;
+}
+
+.navbar-item-link-button:hover{
+  background-color: rgb(207, 207, 207) !important;
+  border-radius: 10px;
+}

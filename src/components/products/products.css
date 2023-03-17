@@ -1,0 +1,115 @@
+.product-card-img{
+    width: 80%;
+}
+
+.product-card-title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    overflow: hidden;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+.card-text-font{
+    font-weight: bold;
+}
+.btn i{
+    margin-right: 5px;
+}
+.btn-p{
+    margin: 0;
+}
+.btn-add-card{
+    background-color: transparent;
+    outline: none;
+    border-radius: 8px;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    transform: translateX(-50%);
+    display: none;
+    border: none;
+}
+.btn-add-card i{
+    color: rgb(138, 136, 136);
+}
+
+.products-content{
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.container-products{
+    position: relative;
+}
+
+.container-products .card{
+    overflow: hidden;
+}
+.container-products .card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(10px at 50% 50% );
+    transition: 0.4s ease-in-out;
+}
+.container-products .card:after{
+    content: 'KA Store';
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    font-size: 4.2em;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.112);
+    transform: rotate(-20deg);
+}
+.container-products .card:hover:before{
+    clip-path: circle(300px at 50% 50% );
+    background-color: rgba(164, 164, 164, 0.195);
+
+}
+.container-products .card:hover .btn-add-card{
+    display: inline-block;
+}
+.card-border-box-shadown{
+    cursor: pointer;
+}
+.card-border-box-shadown:hover{
+    box-shadow: 1px 2px 7px 4px rgba(181, 181, 181, 0.875);
+    transition: all 0.5s linear;
+
+}
+
+.btn-link{
+    position: absolute;
+    right: 30px;
+    font-size: 40px;
+    top: 50px;
+}
+
+.products-button-select{
+    justify-content: space-evenly;
+}
+.btn-icon-pro{
+    border: 1px solid rgb(222, 222, 222) !important;
+}
+.btn-icon-pro:hover{
+    box-shadow: 1px 2px 7px 4px rgba(181, 181, 181, 0.875);
+    transition: all 0.2s linear;
+}
+.products-icon-button{
+    width: 50px;
+    margin-bottom: 5px;
+}
